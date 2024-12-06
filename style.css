@@ -1,7 +1,7 @@
 .header {
-    height: 150px;
+    height: 100px;
     background-color: white;
-
+    padding-top: 50px;
 }
 
 body {
@@ -30,7 +30,10 @@ body {
     align-items: center;
     height: 50px;
     background-color: green;
-    
+    position: fixed;
+    width: 800px;
+    margin: auto;
+    z-index: 2;
 }
 
 .text {
@@ -79,6 +82,7 @@ a {
     z-index: 2;
     position: absolute;
     border-radius: 10px;
+    z-index: 1;
 }
 
  input{
@@ -135,7 +139,7 @@ button:hover {
 }
 
 .contacts {
-    height: 600px;
+    height: 640px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,7 +147,7 @@ button:hover {
 
 .contactBlock {
     display: flex;
-    height: 150px;
+    height: 170px;
     background-color: #ededed;
     margin-bottom: 30px;
     align-items: center ;
@@ -167,7 +171,7 @@ button:hover {
 
 .secondContactBlock {
     display: flex;
-    height: 150px;
+    height: 170px;
     background-color: #ededed;
     margin-bottom: 30px;
     align-items: center ;
@@ -231,6 +235,10 @@ button:hover {
         border-radius: 0;
     }
 
+    .text__container {
+        width: 390px;
+    }
+
     .contacts {
         width: 100%;
         height: 1000px;
@@ -248,10 +256,46 @@ button:hover {
         width: 390px;
     }
 
-    .pictures img {
+    .pictures .house1 {
         height: 125px;
         width: 200px;
+        background-size: cover;
     }
+
+    .pictures .house2 {
+        height: 125px;
+        width: 200px;
+        background-size: cover;
+    }
+
+
+    .pictures .house3 {
+        height: 125px;
+        width: 200px;
+        background-size: cover;
+    }
+
+
+    .pictures .house4 {
+        height: 125px;
+        width: 200px;
+        background-size: cover;
+    }
+
+
+    .pictures .house5 {
+        height: 125px;
+        width: 200px;
+        background-size: cover;
+    }
+
+
+    .pictures .house6 {
+        height: 125px;
+        width: 200px;
+        background-size: cover;
+    }
+
 
     .contactBlock {
         height: 100%;
@@ -283,4 +327,66 @@ button:hover {
     font-weight: 600;
 }
 
+.house1 {
+    width: 267px;
+    height: 170px;
+    background-image: url('https://st.hzcdn.com/simgs/pictures/exteriors/chastnyy-zhiloy-dom-v-gorkah-6-arhitekturnaya-masterskaya-atrium-img~b4b142c7055f0509_4-6702-1-4ffdb0e.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.house2 {
+    width: 267px;
+    height: 170px;
+    background-image: url('https://ruplans.ru/cms_files/98/184/6105/vid1.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.house3 {
+    width: 267px;
+    height: 170px;
+    background-image: url('https://content.cdn-cian.ru/realty/journal/330399/house-isolated-in-the-field.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.house4 {
+    width: 267px;
+    height: 170px;
+    background-image: url('https://sdbgp.ru/assets/images/statji/007/001.JPG');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.house5 {
+    width: 267px;
+    height: 170px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLerdeyGVhAIXsmMTUQnTfsI8vo-UywbIzVw&s');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.house6 {
+    width: 267px;
+    height: 170px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdEC_P-t5v63i3ukcrD324Hs2PwbErzAel-g&s');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.houseText {
+    display: flex;
+    background-color: gray;
+    color: white;
+    padding: 4px 6px;
+}
  
