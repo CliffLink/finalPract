@@ -29,7 +29,7 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 50px;
-    background-color: green;
+    background-color: #264a30;
     position: fixed;
     width: 800px;
     margin: auto;
@@ -40,7 +40,7 @@ body {
     color: black;
     font-size: 20px;
     padding: 2px 5px;
-    background-color: lightblue;
+    background-color: white;
     border-radius: 10px;
     text-decoration: none;
 }
@@ -50,7 +50,8 @@ a {
 }
 
 .text:hover {
-    background-color: #fff;
+    background-color: gray;
+    color: white;
 }
 
 .first__name {
