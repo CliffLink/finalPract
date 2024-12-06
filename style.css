@@ -195,11 +195,13 @@ button:hover {
   
 .blockText {
     font-size: 19px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .secondBlockText {
     font-size: 19px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .adress {
@@ -229,6 +231,8 @@ button:hover {
 .picturesWrap {
     border-radius: 10px;
     margin-bottom: 30px;
+    justify-content: center;
+    display: flex;
 }
 
 @media (max-width: 798px){
