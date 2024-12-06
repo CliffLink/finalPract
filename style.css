@@ -14,7 +14,7 @@ body {
     padding: 0;
 }
 .footer {
-    height: 90px;
+    height: 100px;
     position: relative;
     background-color: #185d70;
     width: 100%;
@@ -42,7 +42,7 @@ body {
     font-size: 20px;
     padding: 2px 5px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 6px;
     text-decoration: none;
 }
 
