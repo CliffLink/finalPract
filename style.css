@@ -252,6 +252,11 @@ button:hover {
         width: 100%;
         bottom: 0;
         position: relative;
+        height: 150px;
+    }
+
+    .adress {
+        height: 110px;
     }
 
     .pictures {
