@@ -4,7 +4,7 @@
     padding-top: 50px;
 }
 
-body {
+.container {
     max-width: 800px;
     margin: 0 auto;
 }
@@ -184,11 +184,13 @@ button:hover {
 
 .firstAvatar {
     display: flex;
+    align-items: center;
 }
 
 .secondAvatar {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
 }
   
 .blockText {
@@ -229,7 +231,7 @@ button:hover {
     margin-bottom: 30px;
 }
 
-@media (max-width: 900px){
+@media (max-width: 798px){
     .header {
         width: 100%;
     }
@@ -239,7 +241,7 @@ button:hover {
     }
 
     .text__container {
-        width: 390px;
+        width: 100%;
     }
 
     .contacts {
@@ -323,7 +325,13 @@ button:hover {
         width: 250px;
     }
 
+    .blockText {
+        margin-right: 30px;
+    }
 
+    .contacts {
+        margin-top: 30px;;
+    }
 
     
 }
@@ -388,8 +396,6 @@ button:hover {
     display: flex;
     align-items: flex-end;
 }
-
-
 
 .houseText {
     display: flex;
